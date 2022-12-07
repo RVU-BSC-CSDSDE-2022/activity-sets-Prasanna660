@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main() 
+{
+    int num1, num2, sum;
+    
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+    
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+    
+    // calculating sum
+    sum = num1 + num2;
+    
+    printf("Sum of the numbers = %d", sum);
+    
+    return 0;
+}
