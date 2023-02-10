@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Activity7</title>
+<style>
+
+  nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+    background:gold;
+  }
+
+  h2  {
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type:circle;
+    padding: 10;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    height: 300px; 
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  @media (max-width: 600px) {
+    nav, article {
+    width: 100%;
+    height: auto;
+    }
+  }
+
+
+  h1 {
+    text-align: center;
+  }
+
+  article {
+    background: light yellow;
+    animation: fadeBackground 6s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeBackground {
+    from {background-color: light yellow;}
+    to {background-color:yellow;}
+  }
+
+  body{
+            background-image: url('Img/RVU2.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:14cm;
+            background-position: top;
+        }
+
+
+</style>
+</head>
+<body>
+  <h2 class="text">RV University</h2>
+  <br>
+<center><img src="https://lh3.googleusercontent.com/p/AF1QipPxUckr_k0PtfqSe-u8jXbsvRhtLJWTo0Oo4Ata=s1360-w1360-h1020"width="400" height="300"></center>
+<section>
+  <nav>
+    <h2>Courses Offered</h2>
+    <ul>
+      <li>BTech</li>
+      <li>BSc(hons)</li>
+      <li>BDes</li>
+      <li>BCom</li>
+      <li>BBA</li>
+    </ul>
+  </nav>
+  
+  <article> 
+    <h1>RV University</h1>
+    <p>RVU faculty members are highly accomplished individuals with outstanding track record in academics and research. Their global exposure has contributed to the drafting of a sound syllabus and adoption of an innovative teaching pedagogy. All faculty members are committed to providing every student with an impactful learning experience that equips them to excel in their studies.</p><br>
+    <p>Discover the diverse Undergraduate programmes offered at one of the best colleges in Bangalore that helps you strive and thrive in this ever-changing world.</p>
+  </article>
+</section>
+</body>
+</html>
